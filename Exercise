@@ -1,0 +1,117 @@
+1. write a java program to get a number from the user and print whether itis positive or negative
+input number: 35
+expected output:number is positive
+
+solution:
+import java.util.Scanner;
+public class Main{
+public static void main(string[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a number");
+int a=sc.nextInt();
+if(a>0){
+System.out.println("number is positive");
+}
+else if(a<0){
+System.out.println("number is negative");
+}
+else{
+System.out.println("number is zero");
+}
+}}
+
+
+
+2. take three numbers from the user and print the greatest number
+input 1st number:25
+input 2nd number:78
+input 3rd number:87
+expected output:
+the greatest number:87
+
+solution:
+
+import java.util.Scanner;
+public class Main{
+public static void main(string[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("enter 1st number");
+int a=sc.nextInt();
+System.out.println("enter 2nd number");
+int b=sc.nextInt();
+System.out.println("enter 3rd number");
+int c=sc.nextInt();
+if(a>b){
+System.out.println("the greatest number:"+a);
+}
+else if(b>c){
+System.out.println("the greatest number:"+b);
+}
+else if(c>a){
+System.out.println("the greatest number:"+c);
+}
+else{
+System.out.println("the number is same");
+}
+}}
+
+
+
+3. write a java program that keeps a number from user and generates an integer between 1 and 7 and display the name of the weekday
+input number:3
+expected output: wednesday
+
+solution:
+
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("enter a number");
+int a=sc.nextInt();
+switch(a){
+case 1:{ System.out.println("monday");
+        } 
+        break;
+case 2:{ Sysyem.out.println("tuesday");}
+        break;
+case 3:{ System.out.println("wednedday");}
+        break;
+case 4:{ System.out.println("thursday");}
+        break;
+case 5:{ System.out.println("friday");}
+        break;
+case 6:{ System.out.println("saturday");}
+        break;
+case 7:{ System.out.println("sunday");}
+        break;
+        }
+        }}
+        
+        
+        
+4. write a java program that reads in two floating point numbers and test whether they are the same up to three decimal
+input floating point number:25.586
+input floating point another number:25.589
+expected output:they are different
+
+
+solution:
+
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.println("enter floating point number");
+float a=sc.nextFloat();
+System.out.println("enter floating point another number");
+float b=sc.nextFloat();
+if(a==b){
+System.out.println("they are same");
+}
+else{
+System.out.println("they are different");
+}
+}}
+
+
